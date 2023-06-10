@@ -4,7 +4,7 @@ using System.IO.Ports;
 
 namespace fanuc_robot_interface
 {
-    public partial class Form1 : Form
+    public partial class frmMain : Form
     {
 
         SerialPort port;
@@ -14,7 +14,7 @@ namespace fanuc_robot_interface
         bool isConnectedToLaser = false;
         bool isConnectedToCams = false;
 
-        public Form1()
+        public frmMain()
         {
             InitializeComponent();
 

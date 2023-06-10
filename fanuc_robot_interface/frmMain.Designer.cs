@@ -1,6 +1,6 @@
 ﻿namespace fanuc_robot_interface
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         ///  Required designer variable.
